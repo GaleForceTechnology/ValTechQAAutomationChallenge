@@ -1,0 +1,12 @@
+step_definitions\TestFramework\WebBrowserSteps.class
+step_definitions\Website\WebsiteSteps.class
+CucumberJUnitTests\RunCukesTest.class
+step_definitions\TestFramework\CommonAssertions\Web\AssertionsWeb.class
+step_definitions\TestFramework\CommonAssertions\Web\AssertionsWebLink.class
+step_definitions\TestFramework\CommonAssertions\Assertions.class
+step_definitions\TestFramework\UserSteps.class
+step_definitions\TestFramework\CommonAssertions\Web\AssertionsWebElement.class
+step_definitions\TestFramework\TestFrameworkSteps.class
+step_definitions\TestFramework\CommonAssertions\Web\AssertionsWebElements.class
+step_definitions\TestFramework\CommonAssertions\Web\AssertionsWebPage.class
+step_definitions\TestFramework\CommonAssertions\Text\AssertionsText.class

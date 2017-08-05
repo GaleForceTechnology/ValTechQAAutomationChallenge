@@ -1,0 +1,4 @@
+cd C:\WIP\ValtechQAAutomationChallenge\Project\
+C:\WIP\ValtechQAAutomationChallenge\apache-maven-3.5.0\bin\mvn -Denvironment.configuration=src/test/resources/website/test.environment.system.properties -Dexternal.configuration=../current.test.properties -DtestRunRootDirectory="C:\WIP\ValtechQAAutomationChallenge\Output\FullTestSuite" -DhighlightElementsAsWeUseThem="true" -DshowProgressNotifications="true" -DtakeScreenshots="true" -DrecordAVideo="true" clean test -Dcucumber.options="-p progress --add-plugin html:C:/WIP/ValtechQAAutomationChallenge/Output/FullTestSuite --snippets camelcase -g step_definitions features"
+cd C:\WIP\ValtechQAAutomationChallenge\Project\
+pause
