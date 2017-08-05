@@ -41,7 +41,7 @@ The tests implemented are described in a single Cucumber/Gherkin feature file wh
 
 >C:\WIP\ValtechQAAutomationChallenge\Project\features\Website\Website.feature
 
-These can be seen [here](https://github.com/GaleForceTechnology/ValtechQAAutomationChallenge/blob/master/Project/features/Website/Website.feature)
+These can also be seen [here](https://github.com/GaleForceTechnology/ValtechQAAutomationChallenge/blob/master/Project/features/Website/Website.feature).
 
 The output from running the full test suite locally can be found at:
 
@@ -74,7 +74,7 @@ If the recorded videos do not play, please install the TechSmith codec that can 
 
 ## Outstanding Framework Issues
 
-Further enhancements to the framework used in these sample tests are planned/in progress to better facilitate multithreaded test runs, and to reduce the number of class instances generated.
+Further enhancements to the framework used in these sample tests are planned/in progress to better facilitate multithreaded test runs, and to reduce the number of class instances generated at run time, to reduce memory consumption.
 
 ## License
 
