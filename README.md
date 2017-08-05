@@ -41,38 +41,7 @@ The tests implemented are described in a single Cucumber/Gherkin feature file wh
 
 >C:\WIP\ValtechQAAutomationChallenge\Project\features\Website\Website.feature
 
-This can also be seen [here](https://github.com/GaleForceTechnology/ValtechQAAutomationChallenge/blob/master/Project/features/Website/Website.feature)
-
-```
-Feature: Website
-
-  The Valtech website at the URL: http://www.valtech.com/
-
-  Background:
-    Given I define a user called "The Website User"
-      And The Website User visits the Valtech website
-
-  Scenario: Verify that the Valtech website is displaying
-    Then The Website User can verify that the Valtech website is displayed
-
-  Scenario: Verify that the 'Latest News' section is displaying
-    Then The Website User can verify that the Latest News section is displayed
-
-  Scenario Outline: Verify that the ABOUT, SERVICES and WORK pages' each display the relevant page name
-    When The Website User navigates to the <PageName> Page
-    Then The Website User can verify that the <PageName> Page is displayed
-
-    Examples:
-      | PageName |
-      | About    |
-      | Services |
-      | Work     |
-
-  Scenario: Count the number of Valtech offices
-    When The Website User navigates to the Contact Page
-     And The Website User verifies that the Contact Page is displayed
-    Then The Website User can count the total number of Valtech offices
-```
+These can be seen [here](https://github.com/GaleForceTechnology/ValtechQAAutomationChallenge/blob/master/Project/features/Website/Website.feature)
 
 The output fromm running the full test suite locally can be found at:
 
@@ -87,9 +56,11 @@ A heierarchical set of sub folders within this top level output follows the stru
 
 All logging is enable in the provided full test suite batch file, and each folder output represents a single scenarios and includes:
 
->A log file, TestLog.txt
->A video recording
->A screenshots subfolder containing all screenshots
+```
+A log file, TestLog.txt
+A video recording
+A screenshots subfolder containing all screenshots
+```
 
 The options to highlight on-screen elements as they are actioned is enabled, as is the option to display on-screen annotations of the actions/checks being executed.
 
