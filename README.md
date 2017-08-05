@@ -1,17 +1,17 @@
-https://gist.github.com/jxson/1784669
-https://help.github.com/articles/basic-writing-and-formatting-syntax/
-
 ## Synopsis
 
 This project is an implementation of an automation challenge.
 
-The framework used has been designed to work primarily with Cucumber/BDD approaches where features/scenarios are in actor based, implementation agnostic declarative steps, though it has also been used successfully within mock-BDD java only based approaches and non-BDD jUnit type tests. 
+The framework used has been designed to work primarily with Cucumber/BDD approaches where features/scenarios are detailed in actor based, implementation agnostic declarative steps, though it has also been used successfully within mock-BDD java only based approaches and non-BDD jUnit type tests.
 
 It aims to provide clear differentiation between requirement specification, the steps ro actions to execute the tests, and the low-level automation code to control any particular type of application, such as a web site.
 
 This way, the highest level of collaboration and participation can be fostered between BA's, manual tester, automation testers and developers.
 
-Great emphasis is given to clarity of what is being tested, traceability, ease of debugging, reuse and reductionin manual test effort, while still preparing the ground for running suites of tests on a CI server, possibly as part of a DevOps environment. Tests can be run locally against any target environment with minimal reconfiguration.
+Great emphasis is given to the clarity of what is being tested, traceability, ease of debugging, reuse and reduction in manual test effort, while still preparing the ground for running suites of tests on a CI server, possibly as part of a DevOps environment. Tests can be run locally against any target environment with minimal reconfiguration.
+
+Simply replicating manual test scripts, written on the basis of scarce resources trying to cover as much functionality with the least number of test cases in infrequent bouts of intense testing with human resource that can adapt their testing on the fly, in my experience, is not as effective a means of automating the testing process as building more focussed 
+tests the leverage the differences between computer and manual processing.
 
 ## Installation
 
@@ -41,7 +41,7 @@ The tests implemented are described in a single Cucumber/Gherkin feature file wh
 
 >C:\WIP\ValtechQAAutomationChallenge\Project\features\Website\Website.feature
 
-This can also be seen [here] (https://github.com/GaleForceTechnology/ValtechQAAutomationChallenge/blob/master/Project/features/Website/Website.feature)
+This can also be seen [here](https://github.com/GaleForceTechnology/ValtechQAAutomationChallenge/blob/master/Project/features/Website/Website.feature)
 
 ```
 Feature: Website
@@ -94,6 +94,12 @@ All logging is enable in the provided full test suite batch file, and each folde
 The options to highlight on-screen elements as they are actioned is enabled, as is the option to display on-screen annotations of the actions/checks being executed.
 
 Screenshots are taken at each action, so some screens may show little change from the previous if there is only some background action being taken.
+
+## Video Playback
+
+If the recorded videos do not play, please install the TechSmith codec that can be found at:
+
+>C:\WIP\ValtechQAAutomationChallenge\Downloads\MonteMediaLibrary\TechSmith\TSCC.msi
 
 ## Outstanding Framework Issues
 
