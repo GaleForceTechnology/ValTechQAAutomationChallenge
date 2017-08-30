@@ -22,7 +22,8 @@ Feature: Website
       | About    |
       | Services |
       | Work     |
-
+	
+  @PJG
   Scenario: Count the number of Valtech offices
     When The Website User navigates to the Contact Page
      And The Website User verifies that the Contact Page is displayed
