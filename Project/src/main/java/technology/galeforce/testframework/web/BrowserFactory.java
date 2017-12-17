@@ -195,7 +195,7 @@ public class BrowserFactory {
         // See: https://sites.google.com/a/chromium.org/chromedriver/downloads
         // See: https://sites.google.com/a/chromium.org/chromedriver/capabilities
 
-        System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, "C:\\WIP\\ValtechQAAutomationChallenge\\Downloads\\ChromeDriver\\v2.29\\chromedriver.exe");
+        System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, "C:\\WIP\\ValtechQAAutomationChallenge\\Downloads\\ChromeDriver\\v2.34\\win32\\chromedriver.exe");
         ChromeDriverService service = ChromeDriverService.createDefaultService();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("-allow-running-insecure-content");
